@@ -65,4 +65,4 @@ This is the only chance for you to save the private key file. You'll need to pro
 
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_website.png)
 
-20. Now let's setup [Evident](ttps://github.com/Halimer/wiis/blob/master/Evident_lab_Setup/README.md)
+20. Now let's setup [Evident](https://github.com/Halimer/wiis/blob/master/Evident_lab_Setup/README.md)
