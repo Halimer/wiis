@@ -2,7 +2,6 @@
 In this section we are going to create an SSH key then deploy some resources into your AWS account via CloudFormation. 
 
 ## Creating a Key Pair Using Amazon EC2
-
 ![](https://github.com/Halimer/wiis/blob/master/images/AWS_EC2.png)
 
 1. Open the Amazon EC2 console at [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/).
@@ -54,7 +53,7 @@ This is the only chance for you to save the private key file. You'll need to pro
 
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Create_In_Progress.png)
 
-14. Select the 'WIISLab'
+14. Select the **WIISLab**
 15. Click the ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Refresh_Button.png)
 16. Repaeat every few minutes until **Status** is **Create_Complete**
 
