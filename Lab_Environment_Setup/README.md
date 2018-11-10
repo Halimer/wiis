@@ -11,43 +11,43 @@ In this section we are going to create an SSH key then deploy some resources int
 
 1. Open the [AWS CloudFormation console](https://console.aws.amazon.com/cloudformation/), choose **Create Stack**
 
-![](images/CFT_S3_Template.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_S3_Template.png)
 
 2. Choose specify an Amazon S3 template URL
 3. Enter this URL into text box [https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template](https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template)
 4. Click the **Next** button
 
-![](./images/CFT_Details_Template.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Details_Template.png)
 
 5. Enter the 'WIISLab' as the **Stack Name**
 6. Select 't2.micro' as the **InstanceType**
 7. Select 'WIIS-Lab-<Region>' as the **KeyName**
 8. Click the **Next** button
 
-![](./images/CFT_Options.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Options.png)
 
 9. Under **Key** enter 'Name'
 10. Under **Value** enter 'WIIS Lab'
 11. Click the **Next** button
 
-![](./images/CFT_Review.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Review.png)
 
 12. Select 'I acknowledge that AWS CloudFormation might create IAM resources.'
 13. Click the **Create** button
 
-![](./images/CFT_Create_In_Progress.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Create_In_Progress.png)
 
 14. Select the 'WIISLab'
-15. Click the ![](./images/CFT_Refresh_Button.png)
+15. Click the ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Refresh_Button.png)
 16. Repaeat every few minutes until **Status** is **Create_Complete**
 
-![](./images/CFT_Create_Complete.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Create_Complete.png)
 
 17. Select **Outputs**
 18. Click on **URL**
 19. You should see the below
 
-![](./images/CFT_Website.png)
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Website.png)
 
 
 
