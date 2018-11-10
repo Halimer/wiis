@@ -10,8 +10,7 @@ In this section we are going to create an SSH key then deploy some resources int
 ## Deploy CloudFormation
 
 1. Login into the [AWS Console](http://console.aws.amazon.com/)
-2. Launch CloudFormation [](https://console.aws.amazon.com/cloudformation/home?region=region#/stacks/new?stackName=WIIS_Lab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironmentV2.template)
-
+2. [Launch CloudFormation](https://console.aws.amazon.com/cloudformation/home?region=rus-east-1/stacks/new?stackName=stack_name&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironmentV2.template) 
 
 
 
