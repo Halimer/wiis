@@ -11,7 +11,7 @@ In this section we are going to create an SSH key then deploy some resources int
 
 1. Open the [AWS CloudFormation console](https://console.aws.amazon.com/cloudformation/), choose **Create Stack**
 
-![](../images/CFT_S3_Template.png)
+![](images/CFT_S3_Template.png)
 
 2. Choose specify an Amazon S3 template URL
 3. Enter this URL into text box [https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template](https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template)
