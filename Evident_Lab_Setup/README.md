@@ -1,5 +1,5 @@
 
-## Pre Lab Setup - Evident
+# Pre Lab Setup - Evident
 In this section we are going to signup for Palo Alto Network's Evident and add our AWS Account to it.
 
 ## Set Up Your Evident Account

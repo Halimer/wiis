@@ -1,4 +1,4 @@
-## Pre Lab Setup - AWS Environment
+# Pre Lab Setup - AWS Environment
 In this section we are going to create an SSH key then deploy some resources into your AWS account via CloudFormation. 
 
 ## Creating a Key Pair Using Amazon EC2
