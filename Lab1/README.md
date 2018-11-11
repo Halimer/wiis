@@ -13,13 +13,14 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 #### Password Policy
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS.png)
-1. From the CIS Benchmark Report Select **Ensure IAM password policy meets CIS recommendations [Related to controls 1.5 / 1.6 / 1/7 / 1.8 / 1.9 / 1.10 / 1.11]**
+1. From the CIS Benchmark Report Select **Ensure IAM password policy meets CIS recommendations**
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS_Details.png)
 2. Select the AWS Account
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_Finding.png)
-3. Click **Details** 
+3. Click **Details**
+
 4. Follow the **Rememdiation Steps**
 
 #### Multi-Factor Authentication 
