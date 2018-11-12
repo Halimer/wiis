@@ -3,15 +3,43 @@
 ## Overview
 In this Lab we will work to remidaite the findings associated with the CIS Benchmark Report from Evident.  We will be following the steps 
 
+
+## Enable Evident CIS Benchmark Report
+
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report2.png)
+1. Go to [Evident - Control Panel](https://esp.evident.io/control_panel/external_accounts)
+
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report3.png)
+2. Click on **Compliance**
+
+3. Click **Enable** 
+
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report4.png)
+4. Click on **Reports** 
+
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report5.png)
+5. Select **Run Reports**
+6. Click **All Teams** 
+
+## Review AWS Trusted Advisor Report
+
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA1.png)
+1. Go to [Trusted Advisor - AWS Console](https://console.aws.amazon.com/trustedadvisor/home?#/dashboard)
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA2.png)
+2. Click **Security**
+3. Take a look a the findings
+
+## Review Evident CIS Benchmark Report
+
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Login.PNG)
 1. Login in Evident
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Dashboard.PNG)
 2. Click on the CIS AWS Foundations Benchmark
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evindet_CIS_Report.png)
 
-### Identity and Access Management
+## Remidate - Identity and Access Management
 
-#### Password Policy
+### Password Policy
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS.png)
 1. From the CIS Benchmark Report Select **Ensure IAM password policy meets CIS recommendations**
 
@@ -23,18 +51,9 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 4. Follow the **Rememdiation Steps**
 
-#### Multi-Factor Authentication 
-1. From the CIS Benchmark Report select **Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password**
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_MFA_Not_CIS_Enabled.png)
-2. Select the AWS account
-
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_MFA_Not_Enabled.png)
-3. Click **Details** next to the finding asscociated for user that starts with **WIISLab-mylabuser**
-4. From the finding click the link **[Enabling a Virtual Multi-factor Authentication (MFA) Device](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html_**
-
-### Networking
-#### SSH Open to the World
+## Networking
+### SSH Open to the World
 1. From the CIS Benchmark Report select **Ensure no security groups allow ingress from 0.0.0.0/0 to port 22 (Scored) ( 4.1 )**  
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_SG_CIS.png.png)
@@ -66,8 +85,8 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_SG6.png)
 12. Click **Save** 
 
-### Logging
-#### KMS Key Rotation
+## Logging
+### KMS Key Rotation
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Key_CIS.png)
 1. From the CIS Benchmark Report select **Ensure rotation for customer created CMKs is enabled (Scored)** 
 
@@ -78,7 +97,7 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 3. Click **Details**
 4. Follow the **Remediation Steps**
 
-#### Enable VPC Flow Logs
+### Enable VPC Flow Logs
 1. From the CIS Benchmark Report select **Ensure VPC Flow Logging is Enabled in all Applicable Regions (Scored)** 
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_CIS_Logging.png)
