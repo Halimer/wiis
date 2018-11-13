@@ -24,15 +24,17 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 
 1. Go to [Trusted Advisor - AWS Console](https://console.aws.amazon.com/trustedadvisor/home?#/dashboard)
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA1.pdf)
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA1.png)
 2. Click **Security**
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA2.pdf)
 3. Take a look a the findings
 
 ## Review Evident CIS Benchmark Report
 
+
 1. Login in Evident
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Login.PNG)
+
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Dashboard.PNG)
 
 2. Click on the CIS AWS Foundations Benchmark
@@ -41,14 +43,14 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 ## Remidate - Identity and Access Management
 
 ### Password Policy
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS.png)
 1. From the CIS Benchmark Report Select **Ensure IAM password policy meets CIS recommendations**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS.png)
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS_Details.png)
 2. Select the AWS Account
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_CIS_Details.png)
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_Finding.png)
 3. Click **Details**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Password_Finding.png)
 
 4. Follow the **Rememdiation Steps**
 
@@ -56,8 +58,8 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 ## Networking
 ### SSH Open to the World
 1. From the CIS Benchmark Report select **Ensure no security groups allow ingress from 0.0.0.0/0 to port 22 (Scored) ( 4.1 )**  
-
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_SG_CIS.png.png)
+
 2. Select the AWS account
 3. Click **Details** next to the finding
 
