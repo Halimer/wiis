@@ -25,44 +25,39 @@ This is the only chance for you to save the private key file. You'll need to pro
 
 ## Deploy CloudFormation
 
+1. Click **<a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=WIISLab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template" target="_blank">Launch CloudFormation</a>**
+
 1. Open the [AWS CloudFormation console](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=WIISLab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template), choose **Create Stack**
 
+2. Click the **Next** button
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_S3_Template.png)
 
-2. Choose specify an Amazon S3 template URL
-3. Enter this URL into text box [https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template](https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template)
-4. Click the **Next** button
-
+3. Select 'WIIS-Lab-<Region>' as the **KeyName**
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Details_Template.png)
 
-5. Enter the 'WIISLab' as the **Stack Name**
-6. Select 't2.micro' as the **InstanceType**
-7. Select 'WIIS-Lab-<Region>' as the **KeyName**
-8. Click the **Next** button
-
+4. Click the **Next** button
+5. Under **Key** enter 'Name'
+6. Under **Value** enter 'WIIS Lab'
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Options.png)
 
-9. Under **Key** enter 'Name'
-10. Under **Value** enter 'WIIS Lab'
-11. Click the **Next** button
-
+7. Click the **Next** button
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Review.png)
 
-12. Select 'I acknowledge that AWS CloudFormation might create IAM resources.'
-13. Click the **Create** button
+8. Select 'I acknowledge that AWS CloudFormation might create IAM resources.'
+9. Click the **Create** button
+![](https://github.com/Halimer/wiis/blob/master/images/CFT_Review.png)
 
+10. Select the **WIISLab**
+11. Click the ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Refresh_Button.png)
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Create_In_Progress.png)
 
-14. Select the **WIISLab**
-15. Click the ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Refresh_Button.png)
-16. Repaeat every few minutes until **Status** is **Create_Complete**
+12. Repaeat every few minutes until **Status** is **Create_Complete**
 
+13. Select **Outputs**
+14. Click on **URL**
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_Create_Complete.png)
 
-17. Select **Outputs**
-18. Click on **URL**
-19. You should see the below
-
+15. You should see the below
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_website.png)
 
-20. Now let's setup [Evident](https://github.com/Halimer/wiis/blob/master/Evident_Lab_Setup/README.md)
+16. Now let's setup [Evident](https://github.com/Halimer/wiis/blob/master/Evident_Lab_Setup/README.md)
