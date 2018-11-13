@@ -27,7 +27,7 @@ This is the only chance for you to save the private key file. You'll need to pro
 
 1. Click **<a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=WIISLab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template" target="_blank">Launch CloudFormation</a>**
 
-1. Open the [AWS CloudFormation console](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=WIISLab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template), choose **Create Stack**
+1. Click [Launch CloudFormation](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=WIISLab&templateURL=https://s3-us-west-2.amazonaws.com/johammer/Public/LabEnvironment.template){:target="_blank"}
 
 2. Click the **Next** button
 ![](https://github.com/Halimer/wiis/blob/master/images/CFT_S3_Template.png)
