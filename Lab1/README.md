@@ -13,7 +13,6 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report3.png)
 3. Click **Disable** 
-
 4. Click on **Reports** 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report4.png)
 
@@ -23,17 +22,19 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 ## Review AWS Trusted Advisor Report
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA1.png)
+
 1. Go to [Trusted Advisor - AWS Console](https://console.aws.amazon.com/trustedadvisor/home?#/dashboard)
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA2.png)
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA1.pdf)
 2. Click **Security**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_TA2.pdf)
 3. Take a look a the findings
 
 ## Review Evident CIS Benchmark Report
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Login.PNG)
 1. Login in Evident
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Login.PNG)
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Dashboard.PNG)
+
 2. Click on the CIS AWS Foundations Benchmark
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evindet_CIS_Report.png)
 
