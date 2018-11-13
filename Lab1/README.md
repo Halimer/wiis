@@ -6,13 +6,14 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 ## Enable Evident CIS Benchmark Report
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report2.png)
 1. Go to [Evident - Control Panel](https://esp.evident.io/control_panel/external_accounts)
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report2.png)
 
-![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report3.png)
+
 2. Click on **Compliance**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report3.png)
 
-3. Click **Enable** 
+3. Click **Disable** 
 
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Report4.png)
 4. Click on **Reports** 
