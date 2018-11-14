@@ -30,7 +30,6 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 
 ## Review Evident CIS Benchmark Report
 
-
 1. Go to the [Evident Dashboard](https://esp.evident.io/)
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_Evident_Dashboard.PNG)
 
@@ -113,3 +112,7 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_CIS_Logging_Detail.png)
 
 6. Follow the **Remediation Steps**
+
+
+## Ready for Extra Credit
+ [Extra Credit Lab](https://github.com/Halimer/wiis/blob/master/Lab_Extra_Credit/)
