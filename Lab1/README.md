@@ -111,7 +111,36 @@ In this Lab we will work to remidaite the findings associated with the CIS Bench
 5. Click **Details** next to the finding
 ![](https://github.com/Halimer/wiis/blob/master/images/Lab1_CIS_Logging_Detail.png)
 
-6. Follow the **Remediation Steps**
+6. Go to the [VPC - AWS Console](https://console.aws.amazon.com/vpc)
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow1.png)
+
+7. Click on **VPCs**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow2.png)
+
+8. Select **WIISlab** 
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow3.png)
+
+9. Click the **Flow Logs** tab
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow4.png)
+
+10. Click **Create flow log**
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow5.png)
+
+11. **For Destination log group** enter '/WIIS/Lab/'
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow6.png)
+
+12. Click on **Set Up Permissions**
+13. In the newly opened tab click the **Allow** button
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow7.png)
+
+14. Go back to the 'Create flow log' tab
+15. Under **IAM role** select the newly created **flowlogsRole**
+16. Click the **Create** button
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow8.png)
+
+
+17. Click the **Close** button
+![](https://github.com/Halimer/wiis/blob/master/images/Lab1_VPC_Flow9.png)
 
 
 ## Ready for Extra Credit
