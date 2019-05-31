@@ -37,8 +37,16 @@
       },
 
     "Resources": {
-    
-    "mylabuser" : {
+        "AGENTACTIVATIONKEY": {
+            "Type": "AWS::SSM::Parameter",
+            "Properties": {
+               "Name": "AgentActivationKey",
+               "Type": "String",
+               "Value": "Replace Me",
+               "Description": "Activiation URL of the DSM Server for the Script"
+            }
+         },
+    "labuser" : {
         "Type" : "AWS::IAM::User",
         "Properties" : {
            "Path" : "/",
@@ -62,7 +70,7 @@
      "mylabkey" : {
       "Type" : "AWS::KMS::Key",
       "Properties" : {
-        "Description" : "WIISLabKey",
+        "Description" : "OptivLabKey",
         "KeyPolicy" : {
           "Version": "2012-10-17",
           "Id": "mylabkey",
