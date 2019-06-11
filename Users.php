@@ -18,6 +18,7 @@ switch ($requestMethod) {
         $user_name = $postjson->user_name;
         array_push($users, $user_name);
         $msg = '{"User Name" : ' . $user_name . '"}';
+        echo $msg;
         break;
     }
 }
