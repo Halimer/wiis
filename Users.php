@@ -1,5 +1,5 @@
 <?php
-$users = array('Adny Jassy', 'Jeff Bezos', 'Werner Vogels', 'Stephen Schmidt');
+$users = array('George Washington', 'John Adams', 'Thomas Jefferson', 'James Madison', 'James Monroe');
 $requestMethod = $_SERVER['REQUEST_METHOD'];
 
 switch ($requestMethod) {
